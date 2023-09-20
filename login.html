@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>CrowdSense</title>
+    <link rel="stylesheet" href="styles.css">
+    <link class="logo" rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        /* Your existing styles here */
+
+        body {
+          background-image: url("bg2.jpg");
+          background-size: cover;
+          background-position: center;
+          font-family: Arial, sans-serif;
+        }
+
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+
+        .login-form {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 40px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-form h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .login-form label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 15px;
+        }
+
+        .login-form input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          width: 100%;
+        }
+
+        .navbar {
+            background-color: #5cc1dd;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .logo {
+            height: 60px;
+            width: 100px;
+            border: 1px solid #000000;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end; /* Align list elements to the right */
+            align-items: center; /* Vertically center list elements */
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+            text-align: center; /* Center text within list items */
+        }
+        .navbar ul li:first-child {
+            margin-left: 0; /* Remove margin for the first li (logo) */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="logo">
+                <li><img src="cslogo.jpeg" height="60px" width="100px" alt="CrowdSense"></li>
+            </div>
+            <li><a href="index.html">Why Crowd Sense?</a></li>
+            <li><a href="aboutus.html">Home </a></li>
+            <li><a href="connect.html">Pricing</a></li>
+            <li><a href="connect.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="login-form">
+          <h2>Login</h2>
+          <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <a href="index.html"></a><input type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 Crowd Sense. All rights reserved.</p>
+          </footer>
+</body>
+</html>

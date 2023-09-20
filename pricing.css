@@ -1,0 +1,278 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.one {
+  margin: 20px;
+  border: 1px solid #11cdd4;
+  border-radius: 20px;
+  padding: 75px;
+  height: 400px;
+  width: 300px;
+}
+.one:hover {
+  /* Diagonal gradient background with three colors */
+  background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+  /* You can adjust the direction and colors as needed */
+
+  /* Other CSS properties for body */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.two {
+  margin: 20px;
+  border: 1px solid #11cdd4;
+  border-radius: 20px;
+  padding: 75px;
+  height: 400px;
+  /* width:500px; */
+}
+.two:hover {
+  /* Diagonal gradient background with three colors */
+  background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+  /* You can adjust the direction and colors as needed */
+
+  /* Other CSS properties for body */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.three:hover {
+  /* Diagonal gradient background with three colors */
+  background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+  /* You can adjust the direction and colors as needed */
+
+  /* Other CSS properties for body */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.three {
+  margin: 30px;
+  border: 1px solid #11cdd4;
+  border-radius: 20px;
+  padding: 75px;
+  height: 400px;
+}
+h1 {
+  background-color: #11cdd4;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #5cc1dd;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  background-color: #e4f9f5;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 230px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.middle-container {
+  background-color: #e4f9f5;
+}
+
+.skill-row {
+  margin: 80px auto 80px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e3a130;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, hsl(172, 76%, 54%), #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+a:hover {
+  color: #30e3cb;
+}
+
+.contact-me {
+  text-align: center;
+  margin: 190px auto 100px auto;
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 120px;
+}
+
+.pay {
+  text-align: center;
+  margin: 190px 550px 100px 550px;
+  padding-top: 15px;
+  padding-bottom: 120px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-row h2 {
+  text-align: center;
+}
+.logo {
+  height: 60px;
+  width: 100px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  background-color: #e4f9f5;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 230px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e3a130;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, hsl(172, 76%, 54%), #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+a:hover {
+  color: #30e3cb;
+}

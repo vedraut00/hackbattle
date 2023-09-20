@@ -1,0 +1,103 @@
+.main
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.one{
+    margin:20px;
+    border:1px solid #11cdd4;
+    border-radius:20px;
+    padding:75px;
+    height:400px;
+    width:300px;
+    
+    
+}
+.one:hover{
+    /* Diagonal gradient background with three colors */
+    background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+    /* You can adjust the direction and colors as needed */
+    
+    /* Other CSS properties for body */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.two{
+    margin:20px;
+    border:1px solid #11cdd4;
+    border-radius:20px;
+    padding:75px;
+    height:400px;
+    /* width:500px; */
+    
+}
+.two:hover{
+    /* Diagonal gradient background with three colors */
+    background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+    /* You can adjust the direction and colors as needed */
+    
+    /* Other CSS properties for body */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.three:hover{
+    /* Diagonal gradient background with three colors */
+    background: linear-gradient(45deg, #0080ff, #ff9900, #ff3c00);
+    /* You can adjust the direction and colors as needed */
+    
+    /* Other CSS properties for body */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.three{
+    margin:30px;
+    border:1px solid #11cdd4;
+    border-radius:20px;
+    padding:75px;
+    height:400px;
+}
+h1{
+    background-color:#11cdd4;
+    text-align: center;
+    border-radius:15px;
+    padding:20px;
+}
+.ul{
+    display:block;
+    margin-top:50px;
+
+}
+.list{
+    line-height: 2px;
+}
+.he{
+    margin:40px;
+}
+.in{
+    font-size:30px;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the container take up the full viewport height */
+}
+
+/* Style for the button */
+.center-button {
+    background-color: #ff0000; /* Blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 540px;
+    border-radius: 10px;
+    width:400px;
+
+}
